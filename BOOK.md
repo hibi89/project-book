@@ -18,7 +18,7 @@
 | 번호 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- | --- |
 | p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 00:23:55 KST | 활성 · ZIP 검증기 메모리 상한 보강 · 격리 헬퍼 4/4 PASS · 새 GitHub Actions CI 미검증 | `d245da534602f5660de8b6cb879789d85d482546` |
-| p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-17 23:52:36 KST | 활성 · A안 두 독립 상품 ZIP/상세 JPG 기술 검수 완료 · 실제 크몽 신규 2건 미등록 | `7657682e5b836251a7159c3236fe666f350b4859` |
+| p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:30:00 KST | 활성 · 크몽 신규 841123 (10,000원)·841126 (20,000원) 심사 제출·승인 대기; 구매자 ZIP 검증·연결; 기존 840876 (6,000원) 보존 | `9d8d41a0283d0d61dd15c9eedc6f1c5e3db6585b` |
 | p3 | — | — | — | 미배정 | — |
 | p4 | — | — | — | 미배정 | — |
 | p5 | — | — | — | 미배정 | — |
@@ -40,4 +40,4 @@
 
 - 중앙 등록부: `hibi89/project-book` / `main` / `BOOK.md`
 - 등록된 프로젝트: REA Studio (`p1`, `hibi89/web-rea-studio`), NAON2 Character Studio (`p2`, `hibi89/NAON2-Character-Studio`)
-- 현재 활성 번호: `p1`(REA Studio, 2026-10-17 23:16:41 KST), `p2`(NAON2, 2026-10-17 23:36:26 KST) — 실제 마지막 작업 기준; p0 실행 시각으로 연장하지 않음
+- 현재 활성 번호: `p1`(REA Studio, 2026-10-17 23:16:41 KST), `p2`(NAON2, 2026-10-18 00:30:00 KST) — 실제 마지막 작업 기준; p0 실행 시각으로 연장하지 않음
