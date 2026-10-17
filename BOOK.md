@@ -17,7 +17,7 @@
 
 | 번호 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- | --- |
-| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 00:23:55 KST | 활성 · ZIP 검증기 메모리 상한 보강 · 격리 헬퍼 4/4 PASS · 새 GitHub Actions CI 미검증 | `d245da534602f5660de8b6cb879789d85d482546` |
+| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 00:34:14 KST | 활성 · 실패·중단 분석 읽기 전용 복구 판단 API·UI 추가 · 단위 4/4 PASS · 새 CI 대기 | `626ac898ef303fb744edd3bd7c487ab9c6b96940` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:30:00 KST | 활성 · 크몽 신규 841123 (10,000원)·841126 (20,000원) 심사 제출·승인 대기; 구매자 ZIP 검증·연결; 기존 840876 (6,000원) 보존 | `9d8d41a0283d0d61dd15c9eedc6f1c5e3db6585b` |
 | p3 | — | — | — | 미배정 | — |
 | p4 | — | — | — | 미배정 | — |
