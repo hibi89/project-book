@@ -17,7 +17,7 @@
 
 | 번호 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- | --- |
-| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-17 23:46:12 KST | 활성 · 독립 오프라인 ZIP 검증기 구현/인계 완료 · 신규 CI 검증 대기 | `5c233676a51effcfcf55a2f7494e98536c681d6a` |
+| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-17 23:56:26 KST | 활성 · ZIP 독립 검증기 격리 7/7 PASS · GitHub Actions 정식 CI 미검증 | `542cd0846e20d05e026a0f5fdb59d3201cd71b12` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-17 23:52:36 KST | 활성 · A안 두 독립 상품 ZIP/상세 JPG 기술 검수 완료 · 실제 크몽 신규 2건 미등록 | `7657682e5b836251a7159c3236fe666f350b4859` |
 | p3 | — | — | — | 미배정 | — |
 | p4 | — | — | — | 미배정 | — |
