@@ -18,7 +18,7 @@
 | 번호 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- | --- |
 | p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-17 23:16:41 KST | 활성 · 오프라인 ZIP 구현 및 CI 검증 완료 | `71d7e72a1a3af53a8da36f289daca46b3f844773` |
-| p2 | — | — | — | 미배정 | — |
+| p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-17 23:36:26 KST | 등록 · 크몽 840876 두 메뉴 구현 차단(패키지 3등급 필수), 사용자 선택 대기 | `c57cac8d134a8181a258888bd39b50b847fdd93e` |
 | p3 | — | — | — | 미배정 | — |
 | p4 | — | — | — | 미배정 | — |
 | p5 | — | — | — | 미배정 | — |
@@ -39,5 +39,5 @@
 ## 운영 상태
 
 - 중앙 등록부: `hibi89/project-book` / `main` / `BOOK.md`
-- 등록된 프로젝트: REA Studio (`p1`, `hibi89/web-rea-studio`)
-- 현재 활성 번호: `p1` (2026-10-17 23:16:41 KST 실제 마지막 작업 기준)
+- 등록된 프로젝트: REA Studio (`p1`, `hibi89/web-rea-studio`), NAON2 Character Studio (`p2`, `hibi89/NAON2-Character-Studio`)
+- 현재 활성 번호: `p1`(REA Studio, 2026-10-17 23:16:41 KST), `p2`(NAON2, 2026-10-17 23:36:26 KST) — 실제 마지막 작업 기준; p0 실행 시각으로 연장하지 않음
