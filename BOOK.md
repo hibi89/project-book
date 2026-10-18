@@ -27,6 +27,14 @@
 | p8 | — | — | — | 미배정 | — |
 | p9 | — | — | — | 미배정 | — |
 
+## 등록 프로젝트 · 번호 미배정
+
+> 번호는 `p0`에서 검증된 최근 3시간 이내 실제 작업을 기준으로 배정한다. 등록 자체는 실제 작업 시각을 만들지 않는다.
+
+| 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
+| --- | --- | --- | --- | --- |
+| Astra Web Catcher | `hibi89/astra_web_catcher` | 미확인 (초기 커밋 없음) | 등록됨 · 비공개 · `main` · 빈 저장소 · 개발 착수 전 | — |
+
 ## 운영 규칙
 
 1. **등록부 고정 위치:** 비공개 `hibi89/project-book`, `main`, `/BOOK.md`. 다른 채팅에서도 항상 이 주소를 먼저 사용한다. 이 주소를 ChatGPT 개인지침 0항에도 명시한다.
@@ -39,5 +47,5 @@
 ## 운영 상태
 
 - 중앙 등록부: `hibi89/project-book` / `main` / `BOOK.md`
-- 등록된 프로젝트: REA Studio (`p1`, `hibi89/web-rea-studio`), NAON2 Character Studio (`p2`, `hibi89/NAON2-Character-Studio`)
+- 등록된 프로젝트: REA Studio (`p1`, `hibi89/web-rea-studio`), NAON2 Character Studio (`p2`, `hibi89/NAON2-Character-Studio`), Astra Web Catcher (미배정, `hibi89/astra_web_catcher`)
 - 현재 활성 번호: `p1`(REA Studio, 2026-10-18 15:28:10 KST), `p2`(NAON2, 2026-10-18 00:36:00 KST) — 각각 마지막 실제 작업 기준. `p0` 재실행 전 번호 유지.
