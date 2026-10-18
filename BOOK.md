@@ -17,7 +17,7 @@
 
 | 번호 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- | --- |
-| p1 | REA Studio · Dashboard Mechanism Skills | `hibi89/web-rea-studio` | 2026-10-18 KST | 활성 · `mvp-three-mode-20261018` · **제품 방향 전환 문서 반영 완료(기능 구현 전)** · 시각복제 대신 대시보드 메커니즘 3종(group-by-sum / dimension-filter / chart-crossfilter) 저장, 자기 CSV·JSON 매핑, KPI+차트 반응형 독립 HTML 생성 · 최단 60분 / 기본 2~3시간 하드스톱 설계 · 지침: `docs/MECHANISM_SKILLS_MVP_2026-10-18.md` → `HANDOFF.md` · 막힌 io 사이트 재시도 금지 · 최근 코드 검증: 이전 W3C CI #39100919436(신규 방향 검증 아님) · Production 미배포 | `8e2064062875f40bf3bb5a7ece50ab6c7c0757e1` |
+| p1 | REA Studio · Dashboard Mechanism Skills | `hibi89/web-rea-studio` | 2026-10-18 15:26:50 KST | 활성 · `mvp-three-mode-20261018` · **스킬 3종+CSV/JSON 매핑+오프라인 KPI/SVG HTML+CLI/테스트 커밋** · 로컬 시제품 Node 22.16 10/10 PASS, GitHub 최신 소스 격리 JS 필터 합계 ALL/KR/US/JP 870/450/270/150 확인 · 공식 GitHub Actions·물리 Chrome **미검증** · feature Vercel 빌드 사용량 제한 실패 · main/Production 미변경 · `docs/MECHANISM_SKILLS_RUNBOOK_2026-10-18.md` / `HANDOFF.md` / `STATUS.md` 최신화 | `8d352fc1484fa192c1b429f53cc52eec18336dd8` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:36:00 KST | 활성 · 841123 (10,000원)·841126 (20,000원) 심사 대기; 기존 840876 (6,000원)은 사용자 삭제 보고, 새로고침한 내 서비스 목록에서 미표시 | `ddc0164a6e28e132d517d0f2d7cc02db7d06584d` |
 | p3 | — | — | — | 미배정 | — |
 | p4 | — | — | — | 미배정 | — |
@@ -40,4 +40,4 @@
 
 - 중앙 등록부: `hibi89/project-book` / `main` / `BOOK.md`
 - 등록된 프로젝트: REA Studio (`p1`, `hibi89/web-rea-studio`), NAON2 Character Studio (`p2`, `hibi89/NAON2-Character-Studio`)
-- 현재 활성 번호: `p1`(REA Studio, 2026-10-18 KST), `p2`(NAON2, 2026-10-18 00:36:00 KST) — 각각 마지막 실제 작업 기준. `p0` 재실행 전 번호 유지.
+- 현재 활성 번호: `p1`(REA Studio, 2026-10-18 15:26:50 KST), `p2`(NAON2, 2026-10-18 00:36:00 KST) — 각각 마지막 실제 작업 기준. `p0` 재실행 전 번호 유지.
