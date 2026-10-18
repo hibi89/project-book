@@ -17,7 +17,7 @@
 
 | 번호 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- | --- |
-| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 10:49:22 KST | 활성 · MVP 브랜치 `mvp-three-mode-20261018` · F12/Chrome 다중수집→독립HTML→비교→3모드 당일 실행설계 확정 · 기능 구현 전 | `201fdfea300646c92131f5803098f2d49fb132b3` |
+| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 10:50:50 KST | 활성 · MVP 전용 `mvp-three-mode-20261018` · 당일 URL→F12/DOM/CSS→독립 HTML→시각비교→3모드 실행 명세 확정 · 개발 대기 · CI 수동 실행 필요 | `455078574cd0e284244d6d82d4c57e1bb4cb802d` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:36:00 KST | 활성 · 841123 (10,000원)·841126 (20,000원) 심사 대기; 기존 840876 (6,000원)은 사용자 삭제 보고, 새로고침한 내 서비스 목록에서 미표시 | `ddc0164a6e28e132d517d0f2d7cc02db7d06584d` |
 | p3 | — | — | — | 미배정 | — |
 | p4 | — | — | — | 미배정 | — |
