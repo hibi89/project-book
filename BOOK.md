@@ -33,7 +33,7 @@
 
 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- |
-| Astra Web Catcher | `hibi89/astra_web_catcher` | 미확인 (초기 커밋 없음) | 등록됨 · 비공개 · `main` · 빈 저장소 · 개발 착수 전 | — |
+| Astra Web Catcher | `hibi89/astra_web_catcher` | 2026-10-18 16:18:07 KST | 로컬 MVP 2종 구현 · GitHub `main` 소스 22파일·문서 반영 · pytest 13/13 PASS · Uvicorn HTTP 재시작/영속성 PASS · Chromium UI 접근 차단으로 미검증 · FastAPI/SQLite 대체 스택 | `a429ee969535547a9168f59f6dc3b50549d1174f` |
 
 ## 운영 규칙
 
