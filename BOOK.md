@@ -17,7 +17,7 @@
 
 | 번호 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- | --- |
-| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 12:31:30 KST | 활성 · `mvp-three-mode-20261018` · 승인 URL 단일 제출→static-visual 저장→3모드 HTML/미리보기 자동 연결 완료 · 공식 자동 CI #39093496185 최종 3/3 SUCCESS (Linux22·Windows22·24 각각 305/305 PASS, Windows22 1회 재실행) · 원본 화면 유사도 실측 대기 | `0375231d9b25ebb662472b0059d017fc7855ecda` |
+| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 12:48:51 KST | 활성 · `mvp-three-mode-20261018` · 저장 원본과 MODE1 독립 Chrome 스크린샷 나란히 표시·픽셀/RGB 오차 실측·해시 검증·원본 미캡처/크기 불일치 시 미측정 처리 · 자동 CI #39094934077 전체 3/3 SUCCESS(각 Linux22/Win22/Win24 309/309 PASS) · 합성 화면 일치율 97.06%, 실제 사이트 70~80%는 미검증 | `430d3c13649c72159fcc99f4a97335e75f8af940` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:36:00 KST | 활성 · 841123 (10,000원)·841126 (20,000원) 심사 대기; 기존 840876 (6,000원)은 사용자 삭제 보고, 새로고침한 내 서비스 목록에서 미표시 | `ddc0164a6e28e132d517d0f2d7cc02db7d06584d` |
 | p3 | — | — | — | 미배정 | — |
 | p4 | — | — | — | 미배정 | — |
