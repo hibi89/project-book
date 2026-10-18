@@ -19,7 +19,7 @@
 | --- | --- | --- | --- | --- | --- |
 | p1 | REA Studio · Dashboard Mechanism Skills | `hibi89/web-rea-studio` | 2026-10-18 15:28:10 KST | 활성 · `mvp-three-mode-20261018` · **스킬 3종+CSV/JSON 매핑+오프라인 KPI/SVG HTML+CLI/테스트 커밋** · 로컬 시제품 Node 22.16 10/10 PASS, GitHub 최신 소스 격리 JS 필터 합계 ALL/KR/US/JP 870/450/270/150 확인 · 공식 GitHub Actions·물리 Chrome **미검증** · feature Vercel 빌드 사용량 제한 실패 · main/Production 미변경 · `docs/MECHANISM_SKILLS_RUNBOOK_2026-10-18.md` / `HANDOFF.md` / `STATUS.md` 최신화 | `d674d02e27b6b637b2bbb0e6157625c07c6167fb` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:36:00 KST | 활성 · 841123 (10,000원)·841126 (20,000원) 심사 대기; 기존 840876 (6,000원)은 사용자 삭제 보고, 새로고침한 내 서비스 목록에서 미표시 | `ddc0164a6e28e132d517d0f2d7cc02db7d06584d` |
-| p3 | Fable 5.1 Web Catcher | `hibi89/fable5.1_web_catcher` | 미확인 (초기 커밋 없음) | 등록됨 · 비공개 · `main` · 빈 저장소 · 개발 착수 전 · 사용자 담당 지정 | — |
+| p3 | Fable 5.1 Web Catcher | `hibi89/fable5.1_web_catcher` | 2026-10-18 16:35:15 KST | 로컬 Step 1 CLI 20개 파일 구현 · 오프라인 pytest **22/22 PASS** · 테스트 fixture 및 JSON/MD 생성 검증 · ZIP 제공 · **GitHub 전체 소스 미반영** · 새 독립 venv 의존성 설치 미검증 (오프라인 패키지 없음) | — |
 | p4 | Astra Web Catcher | `hibi89/astra_web_catcher` | 2026-10-18 16:18:07 KST | 등록 · Python FastAPI/SQLite 로컬 MVP 2종 · pytest 13/13 · 브라우저 미검증 · **요청한 Next.js/TypeScript/Prisma와 다른 구현, 사용자 검수 대기** | `a429ee969535547a9168f59f6dc3b50549d1174f` |
 | p5 | — | — | — | 미배정 | — |
 | p6 | — | — | — | 미배정 | — |
@@ -47,4 +47,4 @@
 
 - 중앙 등록부: `hibi89/project-book` / `main` / `BOOK.md`
 - 등록된 프로젝트: REA Studio (`p1`, `hibi89/web-rea-studio`), NAON2 Character Studio (`p2`, `hibi89/NAON2-Character-Studio`), Fable 5.1 Web Catcher (`p3`, `hibi89/fable5.1_web_catcher`, 초기 커밋 없음), Astra Web Catcher (`p4`, `hibi89/astra_web_catcher`)
-- 현재 번호 배정: `p1`(REA Studio, 마지막 실제 작업 2026-10-18 15:28:10 KST), `p2`(NAON2, 마지막 실제 작업 2026-10-18 00:36:00 KST), `p3`(Fable 5.1 Web Catcher, 사용자 명시 요청으로 신규 배정·실제 작업 이력 없음), `p4`(Astra Web Catcher, 마지막 실제 작업 2026-10-18 16:18:07 KST; 사용자 명시 요청으로 배정). `p0` 재실행 전 번호 유지. `p0`의 3시간 활동 판정에는 실제 작업 시각이 없는 프로젝트를 포함하지 않음.
+- 현재 번호 배정: `p1`(REA Studio, 실제 작업 2026-10-18 15:28:10 KST), `p2`(NAON2, 실제 작업 2026-10-18 00:36:00 KST), `p3`(Fable 5.1 Web Catcher, 로컬 실제 작업 2026-10-18 16:35:15 KST, GitHub 코드 미반영). `p0` 재실행 전 번호 유지. 등록부 갱신 자체로 활동 시간을 연장하지 않음.
