@@ -17,7 +17,7 @@
 
 | 번호 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- | --- |
-| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 10:50:50 KST | 활성 · MVP 전용 `mvp-three-mode-20261018` · 당일 URL→F12/DOM/CSS→독립 HTML→시각비교→3모드 실행 명세 확정 · 개발 대기 · CI 수동 실행 필요 | `455078574cd0e284244d6d82d4c57e1bb4cb802d` |
+| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 11:37:24 KST | 활성 · `mvp-three-mode-20261018` · 3모드 로컬 HTML 제작 UI/API 구현 · 격리 Node/HTTP 6/6 PASS · 실제 Chrome·전체 CI·시각 유사도 미검증 · 다음 검증 대기 | `6a6bcb01c9300474d46abf020e14a291ac1cfe84` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:36:00 KST | 활성 · 841123 (10,000원)·841126 (20,000원) 심사 대기; 기존 840876 (6,000원)은 사용자 삭제 보고, 새로고침한 내 서비스 목록에서 미표시 | `ddc0164a6e28e132d517d0f2d7cc02db7d06584d` |
 | p3 | — | — | — | 미배정 | — |
 | p4 | — | — | — | 미배정 | — |
@@ -40,4 +40,4 @@
 
 - 중앙 등록부: `hibi89/project-book` / `main` / `BOOK.md`
 - 등록된 프로젝트: REA Studio (`p1`, `hibi89/web-rea-studio`), NAON2 Character Studio (`p2`, `hibi89/NAON2-Character-Studio`)
-- 현재 활성 번호: `p1`(REA Studio, 2026-10-17 23:16:41 KST), `p2`(NAON2, 2026-10-18 00:30:00 KST) — 실제 마지막 작업 기준; p0 실행 시각으로 연장하지 않음
+- 현재 활성 번호: `p1`(REA Studio, 2026-10-18 11:37:24 KST), `p2`(NAON2, 2026-10-18 00:30:00 KST) — 실제 마지막 작업 기준; p0 실행 시각으로 연장하지 않음
