@@ -17,7 +17,7 @@
 
 | 번호 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- | --- |
-| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 11:48:09 KST | 활성 · `mvp-three-mode-20261018` · 실제 Studio 통합 테스트 소스 추가·SHA 확인 / 신규 테스트 구문 PASS / 격리 6/6 PASS / 공식 브랜치 CI 0건·Chromium 미검증 · 다음 실행 검증 필요 | `d7578e18b5bdc4e24228ca77da2ac3f2328a0036` |
+| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 12:01:32 KST | 활성 · `mvp-three-mode-20261018` · GitHub Actions #237 전체 3/3 SUCCESS · Linux Node22·Windows Node22·24 각각 304/304 PASS · 기존 runner Chrome 승인 검증 PASS · 원본 디자인 유사도·3모드 실화면 별도 검증 대기 | `d2e4ed4cc2c3ca362cc87e01501c0ac8cd0f4316` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:36:00 KST | 활성 · 841123 (10,000원)·841126 (20,000원) 심사 대기; 기존 840876 (6,000원)은 사용자 삭제 보고, 새로고침한 내 서비스 목록에서 미표시 | `ddc0164a6e28e132d517d0f2d7cc02db7d06584d` |
 | p3 | — | — | — | 미배정 | — |
 | p4 | — | — | — | 미배정 | — |
