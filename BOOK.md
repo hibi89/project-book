@@ -17,7 +17,7 @@
 
 | 번호 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- | --- |
-| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 KST | 활성 · `mvp-three-mode-20261018` · 첫 실사이트 W3C 공개 페이지 스크립트 차단 Chrome 캡처→독립 HTML→비교 성공 · 전체 픽셀 83.88%/RGB MAE 23.29(배경 편향), 윤곽부 53.28%(휴리스틱), 주요 이미지·본문 누락 · CI #39100919436 4/4 SUCCESS(Linux22·Win22·Win24 각 315/315 PASS) · 실사용 체감 70~80% 미입증 · 다음: 본문/버튼 텍스트 재구성 · Production 미배포 | `4ba17e7b7c695274bb7a20cdf02d54fb04d6bc7f` |
+| p1 | REA Studio · Dashboard Mechanism Skills | `hibi89/web-rea-studio` | 2026-10-18 KST | 활성 · `mvp-three-mode-20261018` · **제품 방향 전환 문서 반영 완료(기능 구현 전)** · 시각복제 대신 대시보드 메커니즘 3종(group-by-sum / dimension-filter / chart-crossfilter) 저장, 자기 CSV·JSON 매핑, KPI+차트 반응형 독립 HTML 생성 · 최단 60분 / 기본 2~3시간 하드스톱 설계 · 지침: `docs/MECHANISM_SKILLS_MVP_2026-10-18.md` → `HANDOFF.md` · 막힌 io 사이트 재시도 금지 · 최근 코드 검증: 이전 W3C CI #39100919436(신규 방향 검증 아님) · Production 미배포 | `8e2064062875f40bf3bb5a7ece50ab6c7c0757e1` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:36:00 KST | 활성 · 841123 (10,000원)·841126 (20,000원) 심사 대기; 기존 840876 (6,000원)은 사용자 삭제 보고, 새로고침한 내 서비스 목록에서 미표시 | `ddc0164a6e28e132d517d0f2d7cc02db7d06584d` |
 | p3 | — | — | — | 미배정 | — |
 | p4 | — | — | — | 미배정 | — |
