@@ -17,7 +17,7 @@
 
 | 번호 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- | --- |
-| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 13:11:01 KST | 활성 · `mvp-three-mode-20261018` · 원본형 글자 위치 보정 ±4px 후보 4개·원본 불변·개선 시 별도 HTML/이미지 저장 · 실측 합성 Chrome 99.52→100%/RGB MAE 0.8→0 · 공식 자동 CI #39096208126 3/3 SUCCESS(Linux22·Win22·Win24 각 313/313 PASS) · 실제 외부 사이트 70~80%는 미검증 | `4fc84a7dd7e46bb46b997e0e40823ed4175f6d84` |
+| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 13:54:39 KST | 활성 · `mvp-three-mode-20261018` · 원본형 글자 4방향 및 단일 주요 패널 4방향 ±4px 보정·원본 불변·개선 시 별도 저장 · 합성 Chrome 패널 99.39→100%/RGB MAE 0.84→0 · 공식 CI #39098726086 최종 3/3 SUCCESS(각 OS 314/314 PASS; Win22 첫 시도 원클릭 검사 실패 후 1회 재실행 성공) · 실제 외부 사이트 70~80% 미검증 · Production 미배포 | `46aa25c0372da8c16b665b747217b0d1189bfc9e` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:36:00 KST | 활성 · 841123 (10,000원)·841126 (20,000원) 심사 대기; 기존 840876 (6,000원)은 사용자 삭제 보고, 새로고침한 내 서비스 목록에서 미표시 | `ddc0164a6e28e132d517d0f2d7cc02db7d06584d` |
 | p3 | — | — | — | 미배정 | — |
 | p4 | — | — | — | 미배정 | — |
@@ -40,4 +40,4 @@
 
 - 중앙 등록부: `hibi89/project-book` / `main` / `BOOK.md`
 - 등록된 프로젝트: REA Studio (`p1`, `hibi89/web-rea-studio`), NAON2 Character Studio (`p2`, `hibi89/NAON2-Character-Studio`)
-- 현재 활성 번호: `p1`(REA Studio, 2026-10-18 11:48:09 KST), `p2`(NAON2, 2026-10-18 00:36:00 KST) — 각각 마지막 실제 작업 기준. `p0` 재실행 전 번호 유지.
+- 현재 활성 번호: `p1`(REA Studio, 2026-10-18 13:54:39 KST), `p2`(NAON2, 2026-10-18 00:36:00 KST) — 각각 마지막 실제 작업 기준. `p0` 재실행 전 번호 유지.
