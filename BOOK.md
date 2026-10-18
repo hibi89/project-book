@@ -19,7 +19,7 @@
 | --- | --- | --- | --- | --- | --- |
 | p1 | REA Studio · Dashboard Mechanism Skills | `hibi89/web-rea-studio` | 2026-10-18 15:28:10 KST | 활성 · `mvp-three-mode-20261018` · **스킬 3종+CSV/JSON 매핑+오프라인 KPI/SVG HTML+CLI/테스트 커밋** · 로컬 시제품 Node 22.16 10/10 PASS, GitHub 최신 소스 격리 JS 필터 합계 ALL/KR/US/JP 870/450/270/150 확인 · 공식 GitHub Actions·물리 Chrome **미검증** · feature Vercel 빌드 사용량 제한 실패 · main/Production 미변경 · `docs/MECHANISM_SKILLS_RUNBOOK_2026-10-18.md` / `HANDOFF.md` / `STATUS.md` 최신화 | `d674d02e27b6b637b2bbb0e6157625c07c6167fb` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:36:00 KST | 활성 · 841123 (10,000원)·841126 (20,000원) 심사 대기; 기존 840876 (6,000원)은 사용자 삭제 보고, 새로고침한 내 서비스 목록에서 미표시 | `ddc0164a6e28e132d517d0f2d7cc02db7d06584d` |
-| p3 | Fable 5.1 Web Catcher | `hibi89/fable5.1_web_catcher` | 2026-10-18 16:35:15 KST | 로컬 Step 1 CLI 20개 파일 구현 · 오프라인 pytest **22/22 PASS** · 테스트 fixture 및 JSON/MD 생성 검증 · ZIP 제공 · **GitHub 전체 소스 미반영** · 새 독립 venv 의존성 설치 미검증 (오프라인 패키지 없음) | — |
+| p3 | Fable 5.1 Web Catcher | `hibi89/fable5.1_web_catcher` | 2026-10-18 16:48:05 KST | Windows Python 3.11 .venv 초기 실측 19/22 PASS·3 FAIL(cp949 읽기 오류) → `tests/test_static.py` UTF-8 명시 및 네트워크 오류 테스트 정정 · 수정 후 컨테이너 22/22 PASS·fixture CLI PASS · 수정 ZIP/패치 제공 · Windows 수정본 재검증 대기 · **GitHub 전체 소스 미반영(저장소 비어 있음)** | — |
 | p4 | Astra Web Catcher | `hibi89/astra_web_catcher` | 2026-10-18 16:44:04 KST | 기존 `/shop`·`/jobs` main 보존 · 1차 대시보드 관찰/명세 작성, 별도 `research/jp-nail-dashboard-20261018` 브랜치 문서 커밋 · API/정적 데이터·메뉴 클릭 미검증 · 사용자 시연 대기 · 기존 MVP 테스트 13/13은 이전 결과 | `4768e147f214df31d7ee81ae60042a131d13bbc3` (연구 브랜치; main `dd87ffc847c7b435c7eed7b4543b7db7d184e08c`) |
 | p5 | — | — | — | 미배정 | — |
 | p6 | — | — | — | 미배정 | — |
