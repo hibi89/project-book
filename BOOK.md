@@ -21,7 +21,7 @@
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:36:00 KST | 활성 · 841123 (10,000원)·841126 (20,000원) 심사 대기; 기존 840876 (6,000원)은 사용자 삭제 보고, 새로고침한 내 서비스 목록에서 미표시 | `ddc0164a6e28e132d517d0f2d7cc02db7d06584d` |
 | p3 | Fable 5.1 Web Catcher | `hibi89/fable5.1_web_catcher` | 2026-10-18 20:32:23 KST | **Step 1 원본 7/7, Step 2 원본 9/9 CLI MVP 완료**. 첫 실사이트(젤네일 인사이트 대시보드, #v-dash) 실제 Chromium 분석: HTTP 200, XHR 2, 작은 아이콘 SVG 오탐 다수 제거 및 반복 CSS 막대 1개 탐지, 차트 후보 **14~15 → 3(큰 SVG 2 + CSS 1)**. SPA hash 브라우저 경로 보존·출력 비노출 수정. Windows 3.11 **57/57 PASS** run `39123343492`, Ubuntu 실제 Chromium **12/12 PASS** run `39123322129`, 사용자 URL 구조 진단 PASS run `39123343463`, 기능 SHA `b7c707386034a14c44820709b4a13388dfcf7e7e`. 실제 차트↔API lineage 및 모든 CSS 시각화의 탐지율은 미검증. `docs/DASHBOARD_LIVE_ACCURACY_2026-10-18.md`·HANDOFF·STATUS 최신. 사용자 Windows는 git pull 후 재검증 필요. 배포 없음 | `df51bf30f7ab8ca22a996b12c5ede5e65445478e` (문서 HEAD; 검증 코드 `b7c707386034a14c44820709b4a13388dfcf7e7e`) |
 | p4 | Astra Web Catcher | `hibi89/astra_web_catcher` | 2026-10-18 20:55:33 KST | **Step 2 관찰 증거 계약 v1 / Step 4-A 기반 1단위 완료.** `feature/observation-contract-20261018`에 Pydantic JSON 계약·CLI validate/schema·합성 예제·검증 테스트·설계 문서 추가, **로컬 19/19 PASS**, CLI/JSON Schema/compileall PASS, GitHub blob 해시·브랜치 SHA 재조회 확인. `main` 기존 쇼핑/채용·연구 네일 대시보드·실험 CSV/DB 미변경, Production 미적용. **다음 ㄱ:** 기존 일본 네일 브랜드 필터 관찰 1건을 근거/미확인 구분해 계약 JSON으로 변환·테스트. 기능 명세 자동화·DB/API 매핑·생성 파이프라인 미구현. | `85e21f3960a1adf6c87867840f93525a75e65b78` (feature HEAD; main `dc23ee604d02513c890615a3a98440c1ea8a5270`) |
-| p5 | — | — | — | 미배정 | — |
+| p5 | Astra PDF Redesigner | `hibi89/astra_pdf_redesigner` | 미확인 (저장소 초기화 전) | 등록 · 비공개 빈 저장소 · 초기 작업 대기 · `HANDOFF.md`/`STATUS.md` 없음 | — (커밋 없음) |
 | p6 | — | — | — | 미배정 | — |
 | p7 | — | — | — | 미배정 | — |
 | p8 | — | — | — | 미배정 | — |
@@ -46,5 +46,5 @@
 ## 운영 상태
 
 - 중앙 등록부: `hibi89/project-book` / `main` / `BOOK.md`
-- 등록된 프로젝트: REA Studio (`p1`, `hibi89/web-rea-studio`), NAON2 Character Studio (`p2`, `hibi89/NAON2-Character-Studio`), Fable 5.1 Web Catcher (`p3`, `hibi89/fable5.1_web_catcher`, Step 1 7/7·Step 2 9/9 완료·첫 실사이트 CSS 차트 개선, Windows 57 PASS·Chromium 12 PASS), Astra Web Catcher (`p4`, `hibi89/astra_web_catcher`)
-- 현재 번호 배정: `p1`(REA Studio, 실제 작업 2026-10-18 15:28:10 KST), `p2`(NAON2, 실제 작업 2026-10-18 00:36:00 KST), `p3`(Fable 5.1 Web Catcher, Step 1 7/7·Step 2 9/9 완료·실사이트 정확도 1차 개선, 문서 HEAD 2026-10-18 20:32:23 KST, Windows 57/57·Chromium 12/12 PASS). `p0` 재실행 전 번호 유지. 등록부 갱신 자체로 활동 시간을 연장하지 않음.
+- 등록된 프로젝트: REA Studio (`p1`, `hibi89/web-rea-studio`), NAON2 Character Studio (`p2`, `hibi89/NAON2-Character-Studio`), Fable 5.1 Web Catcher (`p3`, `hibi89/fable5.1_web_catcher`, Step 1 7/7·Step 2 9/9 완료·첫 실사이트 CSS 차트 개선, Windows 57 PASS·Chromium 12 PASS), Astra Web Catcher (`p4`, `hibi89/astra_web_catcher`), Astra PDF Redesigner (`p5`, `hibi89/astra_pdf_redesigner`, 빈 저장소·첫 커밋 전)
+- 현재 번호 배정: `p1`(REA Studio, 실제 작업 2026-10-18 15:28:10 KST), `p2`(NAON2, 실제 작업 2026-10-18 00:36:00 KST), `p3`(Fable 5.1 Web Catcher, Step 1 7/7·Step 2 9/9 완료·실사이트 정확도 1차 개선, 문서 HEAD 2026-10-18 20:32:23 KST, Windows 57/57·Chromium 12/12 PASS). `p4`(Astra Web Catcher), `p5`(Astra PDF Redesigner, 실제 작업 시각·커밋 없음). `p0` 재실행 전 번호 유지. 등록부 갱신 자체로 활동 시간을 연장하지 않음.
