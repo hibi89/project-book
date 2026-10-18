@@ -17,7 +17,7 @@
 
 | 번호 | 프로젝트 | GitHub 저장소 | 마지막 실제 작업 시각 (KST) | 상태 | 근거 커밋 SHA |
 | --- | --- | --- | --- | --- | --- |
-| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 KST | 활성 · `mvp-three-mode-20261018` · 모바일 390px 축소 CI #39099902485 3/3 SUCCESS(각 315/315) · 실제 사이트 원본 스크린샷 Git 저장소에서 미발견, 로컬 results 제외 · 실사이트 70~80% 미검증 · 외부 캡처는 사용자 명시 승인 필요 · Production 미배포 | `d2a9d0d99f944d8905d85a0a7bcd428be612156b` |
+| p1 | REA Studio | `hibi89/web-rea-studio` | 2026-10-18 14:24 KST | 활성 · `mvp-three-mode-20261018` · 합성 CI #39099902485 3/3 SUCCESS(각 315/315) · 승인된 원본 사이트 1회 캡처 시도: web 접근 불가·컨테이너 DNS 실패 · 실사이트 유사도 미측정 · 사용자 원본 스크린샷 또는 유효한 대체 URL 필요 · Production 미배포 | `3fe1b912d20fbc0aed7ea7c5e891a3f945ace510` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:36:00 KST | 활성 · 841123 (10,000원)·841126 (20,000원) 심사 대기; 기존 840876 (6,000원)은 사용자 삭제 보고, 새로고침한 내 서비스 목록에서 미표시 | `ddc0164a6e28e132d517d0f2d7cc02db7d06584d` |
 | p3 | — | — | — | 미배정 | — |
 | p4 | — | — | — | 미배정 | — |
