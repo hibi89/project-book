@@ -19,7 +19,7 @@
 | --- | --- | --- | --- | --- | --- |
 | p1 | REA Studio · Dashboard Mechanism Skills | `hibi89/web-rea-studio` | 2026-10-18 15:28:10 KST | 활성 · `mvp-three-mode-20261018` · **스킬 3종+CSV/JSON 매핑+오프라인 KPI/SVG HTML+CLI/테스트 커밋** · 로컬 시제품 Node 22.16 10/10 PASS, GitHub 최신 소스 격리 JS 필터 합계 ALL/KR/US/JP 870/450/270/150 확인 · 공식 GitHub Actions·물리 Chrome **미검증** · feature Vercel 빌드 사용량 제한 실패 · main/Production 미변경 · `docs/MECHANISM_SKILLS_RUNBOOK_2026-10-18.md` / `HANDOFF.md` / `STATUS.md` 최신화 | `d674d02e27b6b637b2bbb0e6157625c07c6167fb` |
 | p2 | NAON2 Character Studio | `hibi89/NAON2-Character-Studio` | 2026-10-18 00:36:00 KST | 활성 · 841123 (10,000원)·841126 (20,000원) 심사 대기; 기존 840876 (6,000원)은 사용자 삭제 보고, 새로고침한 내 서비스 목록에서 미표시 | `ddc0164a6e28e132d517d0f2d7cc02db7d06584d` |
-| p3 | Fable 5.1 Web Catcher | `hibi89/fable5.1_web_catcher` | 2026-10-18 17:03:47 KST | **Step 1 소스 GitHub `main` 최초 등록 완료** · Windows Python 3.11 `.venv` 22/22 PASS(기존 cp949 실패 3건 수정) · `https://example.com` CLI 결과 생성 확인 · 컨테이너 fixture 22/22 PASS · HANDOFF/STATUS 최신화 · 다른 OS·새 venv 설치 전 과정 미검증 · 배포 미적용 | `2f5e943e848ab6bf5139f752725870cdb212e807` (문서 HEAD, 최초 소스 `cbef84bd388f8b619d2d388bf6cf5a87c617ca45`) |
+| p3 | Fable 5.1 Web Catcher | `hibi89/fable5.1_web_catcher` | 2026-10-18 17:23:55 KST | **Step 1 + GitHub Actions CI 완료** · Windows Python 3.11 새 venv 설치·pytest **23/23 PASS** (run `39111101377`) · 최초 CI cp1252 UnicodeEncodeError 1건 → CLI 출력 방어·회귀 테스트 추가 후 재검증 · 기존 사용자 Windows `.venv` 22/22 PASS · `STATUS.md`/`HANDOFF.md`/README 최신화 · macOS/Linux·다수 공개 사이트 미검증 · Vercel 배포 미적용 | `5adb40e980818f699dddd473518b89d4062dde50` (문서 HEAD; 코드·CI 수정 `78fe2ce4739825b8e9a69d471cfaacc03fc7c063`) |
 | p4 | Astra Web Catcher | `hibi89/astra_web_catcher` | 2026-10-18 17:17:57 KST | 기존 main 도서/채용 MVP·테스트 보존; 별도 `research/jp-nail-dashboard-20261018`에서 상위 게시물 `#v-top` 화면 관찰 완료: NAILTOWN 유지, 20건 중 1–15 표시, 반응순 표/결측·외부 링크 확인; 다음 페이지 이동 및 원본 API/계산식 미검증 · HANDOFF/STATUS 갱신, 사용자 다음 버튼 클릭 대기 | `10cbcf20ca95f0fe81626dd052b36f221251d664` (연구 브랜치; main `dd87ffc847c7b435c7eed7b4543b7db7d184e08c`) |
 | p5 | — | — | — | 미배정 | — |
 | p6 | — | — | — | 미배정 | — |
@@ -47,4 +47,4 @@
 
 - 중앙 등록부: `hibi89/project-book` / `main` / `BOOK.md`
 - 등록된 프로젝트: REA Studio (`p1`, `hibi89/web-rea-studio`), NAON2 Character Studio (`p2`, `hibi89/NAON2-Character-Studio`), Fable 5.1 Web Catcher (`p3`, `hibi89/fable5.1_web_catcher`, `main` 소스 반영 및 Windows 22/22 PASS), Astra Web Catcher (`p4`, `hibi89/astra_web_catcher`)
-- 현재 번호 배정: `p1`(REA Studio, 실제 작업 2026-10-18 15:28:10 KST), `p2`(NAON2, 실제 작업 2026-10-18 00:36:00 KST), `p3`(Fable 5.1 Web Catcher, 소스 최초 GitHub 푸시 2026-10-18 17:03:47 KST·Windows 22/22 PASS). `p0` 재실행 전 번호 유지. 등록부 갱신 자체로 활동 시간을 연장하지 않음.
+- 현재 번호 배정: `p1`(REA Studio, 실제 작업 2026-10-18 15:28:10 KST), `p2`(NAON2, 실제 작업 2026-10-18 00:36:00 KST), `p3`(Fable 5.1 Web Catcher, CI 구축·검증 완료 2026-10-18 17:23:55 KST·Windows 23/23 PASS). `p0` 재실행 전 번호 유지. 등록부 갱신 자체로 활동 시간을 연장하지 않음.
