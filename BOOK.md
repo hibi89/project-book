@@ -1,5 +1,7 @@
 # BOOK.md — GitHub 프로젝트 공통 등록부
 
+> **p6 CI 검증 체크포인트 (2026-10-21, commit `1597950`).** [Three API offline tests](https://github.com/hibi89/ohora-trend-catcher/actions/runs/39497874687) **SUCCESS**, [Frozen Design Guard](https://github.com/hibi89/ohora-trend-catcher/actions/runs/39497874653) **SUCCESS**, [C Contract Offline](https://github.com/hibi89/ohora-trend-catcher/actions/runs/39497874696) **SUCCESS**. [Runtime Integration Offline](https://github.com/hibi89/ohora-trend-catcher/actions/runs/39497874738)는 Linux·일부 Windows 성공, 나머지 Windows 진행 중. **전체 통과 아님**. 실 Meta API/운영 DB/main 병합 미실행. GitHub workflow 파일의 새로운 serial lock/test 파일 경로 감시·compile 강화는 아직 미반영(도구 안전 검사 차단); 차기 작업자가 권한 확인 후 처리할 것.
+
 > **p6 직렬 실행 최신 작업 인덱스 (2026-10-21).** [승인 변경 기록 ADR](https://github.com/hibi89/ohora-trend-catcher/blob/codex/p6-readiness-hardening-20261019/docs/P6_SERIAL_EXECUTION_ADR_2026-10-21.md): API 3개 순차 실행, 합성 오프라인 `step_serial`은 294계정 RAW reconcile 1회/호출, shared OS 잠금으로 다른 합성 프로세스 실행 방지, [트러블슈팅 기록 P6-018~019](https://github.com/hibi89/ohora-trend-catcher/blob/codex/p6-readiness-hardening-20261019/docs/P6_TROUBLESHOOTING_LEDGER.md). **실 Meta HTTP/운영 DB/무인 스케줄러/main 아직 연결되지 않음. 최신 전체 CI 검증 대기**. p6 HANDOFF 최신 `7a9f63b`. 아래 날짜별 과거 '최신' 표기는 historical snapshot.
 
 > **p6 사건번호 충돌 복구 (2026-10-21).** 여러 AI 작업의 동시 기록으로 P6-016 중복 발생 → 기술 원인은 P6-016으로 통합, 사건 ID 충돌 자체는 P6-017로 분리(`b80f391`). 장부 색인·상세 17건씩 중복 0 확인. 향후 신규 사건 ID 등록 직전 최신 feature branch 재조회, SHA 충돌 시 병합해야 함. 현재는 **자동 동시 기록 락이 아니라 문서·테스트 검사**. 최신 p6 feature HANDOFF `bfced9c` 참고.
