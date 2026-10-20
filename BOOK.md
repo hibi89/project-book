@@ -84,3 +84,7 @@
 ## p6 History page_seq 복구 역행 방지 — 2026-10-20 18:08 KST
 
 최종 CI [Runtime #39395796216](https://github.com/hibi89/ohora-trend-catcher/actions/runs/39395796216) Linux/Windows 5/5 SUCCESS. History checkpoint가 가장 최근 완료 페이지를 가리키지 않는 경우 복구 성공 오판을 거부한다(코드 `81d9c02`, 회귀 `d81f958`). 인수인계 HEAD `13f84cf3865123c6c2614de212efaa11361aaeff`, PR #6 Draft·미병합. 실제 Meta·운영 DB·main 변경 없이 오프라인 합성 검증만 완료; P3~P5 운영 인수 미완료.
+
+## p6 History replay latest chain verification — 2026-10-20
+
+Feature `codex/p6-readiness-hardening-20261019`: History multi-page replay now independently recomputes the latest page digest from its predecessor evidence (code `0e5570c`, regression `368b12d`). STATUS `2cd5275`, HANDOFF `abf1a47`. 50 targeted **static source checks** passed; these are not 50 development commits or 50 executed runtime tests. CI at last check was not fully completed. Meta API, production DB, scheduler, deployment and main merge remain unapproved and untouched.
