@@ -1,5 +1,7 @@
 # BOOK.md — GitHub 프로젝트 공통 등록부
 
+> **p6 2026-10-21 RAW/cursor fail-closed gate:** `hibi89/ohora-trend-catcher` feature HEAD `094d71f8b6533cfc592cda1831d48cc42f7c582d`. `37cd84a`에서 live_pending_usage 레인 해제는 `commit_captured_page` 성공 후에만 가능하도록 변경, `bca875e` 정적 회귀 테스트 추가, `STATUS`/`HANDOFF` 갱신. Frozen Guard/C Contract 일부 선행 SHA PASS, **최신 HEAD 전체 CI 대기**. 3 API·294 대상·limit=4·2라운드 고정, 실 Meta/운영 DB/스케줄러/main 미실행. 운영 evidence 포트 미구현으로 live 차단 유지.
+
 > **p6 2026-10-21 신규 작업:** `hibi89/ohora-trend-catcher` feature branch HEAD `a22b3b0def184d2e06606ee4228a834443f32b89`. 공식 294계정 key/username 중복·ordinal 사전검증 및 LiveSerialStep 연결, 회귀 테스트 추가, STATUS/HANDOFF 갱신. 3 API·limit=4·2라운드 유지. `168f9ff` Frozen Guard·C Contract PASS, Three API/Runtime pending(최신 HEAD 전체 CI PASS 미확정). **실 Meta 0회, 운영 RAW/DB 0회, scheduler/main 변경 없음.** 운영 evidence 어댑터 미구현으로 live 차단 유지. N-unit 운영 폐기, 기능 중심 개발.
 
 > **p6 P6-027 CI 회귀 복구 (2026-10-21 10:30:45 KST).** [작업 브랜치 커밋](https://github.com/hibi89/ohora-trend-catcher/commit/8e39987ec4e07b2ff3d443245ac6fb6779f82f5d)에서 P6-026 무HTTP bound recovery와 C page2 선행 cursor가 기존 회귀 4건과 충돌하는 문제를 테스트 정정으로 해결하도록 반영. [실패 RAW #39526851689](https://github.com/hibi89/ohora-trend-catcher/actions/runs/39526851689)·[Runtime #39526867524](https://github.com/hibi89/ohora-trend-catcher/actions/runs/39526867524), 신규 SHA Frozen Guard #39527759191 SUCCESS, 나머지 CI **검증 대기**. [P6-027 사건 장부](https://github.com/hibi89/ohora-trend-catcher/blob/codex/p6-readiness-hardening-20261019/docs/P6_TROUBLESHOOTING_LEDGER.md), STATUS/HANDOFF 재조회 완료. **운영 실수집·원본/DB/스케줄러·main 병합 미실행.**
